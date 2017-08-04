@@ -3,6 +3,7 @@ import _ from 'lodash';
 
 export default class {
   constructor({ Tracker }) {
+    console.log("loading manul-alerts from jbl-form");
     if (!Tracker) {
       throw new Error('please provide Tracker in your context');
     }
